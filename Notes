@@ -1,0 +1,42 @@
+API:
+
+ASP.NET CORE WITH API
+both weather delete
+new folder - Models
+add class into models
+add get-set into class
+add new scaffolded item in controllers
+Api controller with actions using entity framework
+   - model class - class
+
+comment out //put: api/..../5
+comment out //post: api/.... inside public sync
+
+nugget package manager console
+
+Add-Migration init
+
+if success - update-database
+
+program.cs
+  - app.UseCors(builder => builder
+           .AllowAnyHeader()
+           .AllowAnyMethod()
+           .AllowAnyOrigin()
+    );
+
+build - rebuild solution
+
+
+
+
+Console App:
+create console app
+add csv file to app
+
+build action - content
+copy to output directory - copy if never
+
+program.cs - add everything needed
+
+start build
