@@ -40,3 +40,37 @@ copy to output directory - copy if never
 program.cs - add everything needed
 
 start build
+
+
+GUI:
+
+store.java file
+
+import java.io.file;
+import java.io.FileNotFoundException;
+import java.Util.ArrayList;
+inport java.Util.Scanner;
+
+public class store (
+  public static ArrayList<car> readCarsFile() {
+  try {
+return tryReadCarsFile();
+} catch (Exception e) {
+System.err.printIn("Hiba a fájl nem található");
+System.err.printIn(e.getMessage());
+return null;
+}
+
+public static ArrayList<car> tryReadCarsfile() throws FileNotFoundexception {
+ArrayList<cars> cars = new ArrayList<>();
+File file = new File("cars.csv");
+Scanner sc = new scanner(file);
+sc.NextLine();
+while(sc.hasNext()) {
+String line = sc.nextline();
+String[] array = line.split(".");
+System.out.printIn(array(0));
+
+sc.Close();
+return cars;
+}
